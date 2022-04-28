@@ -1,0 +1,90 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+body {
+  padding: 5px;
+  margin: auto;
+  background-image: url(../imaguenes/raphael-renter-VO_c55zvyrk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.main-container {
+  display: flex;
+  background-color: rgb(110, 95, 2);
+ justify-content: space-between;
+ height: 80px;
+ width: 100%;
+}
+.tittle-main{
+  display: inline-block;
+  padding: 5px;
+  font-size: 50px;
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+.nani {
+  position: relative;
+  left: 580px;
+}
+ul :hover{
+  background-color: rgb(183, 123, 49);
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 3px;
+  padding: 3px;
+}
+.section-main {
+  display: flex;
+  
+}
+.parrafo {
+  justify-content: center;
+  text-align: center;
+}
+.parrafo-pa {
+  display: inline-block;
+  width: 400px;
+}
+.tittle-two{
+  display: inline-block;
+  position: relative;
+  bottom:270px ;
+}
+.parra-pa {
+  display: inline-block;
+  position: relative;
+  bottom: 100px;
+ right: 350px;
+  width: 50%;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+.enla {
+  position: relative;
+  left: 95%;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+}
+.enla > i {
+}
+footer {
+  background-color: black;
+  color: red;
+  text-align: center;
+
+}
